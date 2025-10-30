@@ -3,14 +3,15 @@
 /*
 ------------------------------------------------------------
 PROGRAMA: Movimentando as Peças do Xadrez
-AUTOR: Erica Raissa da Silva
+AUTORA: Rayssa Martinez
 OBJETIVO:
-    Simular o movimento de três peças de xadrez:
+    Simular o movimento de quatro peças de xadrez:
     - Torre (usando for)
     - Bispo (usando while)
     - Rainha (usando do-while)
-Cada peça se move um número fixo de casas em uma direção
-específica, imprimindo cada movimento no console.
+    - Cavalo (usando loops aninhados: for + while)
+Cada peça se move um número fixo de casas e imprime o
+movimento no console.
 ------------------------------------------------------------
 */
 
@@ -54,6 +55,37 @@ int main() {
         printf("Esquerda %d\n", contadorRainha);
         contadorRainha++;
     } while (contadorRainha <= casasRainha);
+
+    // =====================================================
+    // 4️⃣ MOVIMENTO DO CAVALO - utilizando loops aninhados
+    // =====================================================
+    // O Cavalo se move em formato de "L":
+    // Duas casas em uma direção (para baixo)
+    // e uma casa perpendicular (para a esquerda)
+    //
+    // Usaremos:
+    // - Um loop "for" para controlar o movimento para baixo (2 casas)
+    // - Um loop "while" para controlar o movimento para a esquerda (1 casa)
+    // Cada passo será impresso no console.
+    // =====================================================
+
+    int casasBaixo = 2;     // duas casas para baixo
+    int casasEsquerda = 1;  // uma casa para a esquerda
+    int contadorBaixo, contadorEsquerda;
+
+    printf("\n=== Movimento do Cavalo ===\n");
+
+    // Loop externo: movimento para baixo (usa for)
+    for (contadorBaixo = 1; contadorBaixo <= casasBaixo; contadorBaixo++) {
+        printf("Baixo %d\n", contadorBaixo);
+    }
+
+    // Loop interno: movimento para a esquerda (usa while)
+    contadorEsquerda = 1;
+    while (contadorEsquerda <= casasEsquerda) {
+        printf("Esquerda %d\n", contadorEsquerda);
+        contadorEsquerda++;
+    }
 
     // =====================================================
     // Fim do programa
