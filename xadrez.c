@@ -3,7 +3,7 @@
 /*
 ------------------------------------------------------------
 PROGRAMA: Movimentando as Peças do Xadrez (Versão Avançada)
-AUTORA: Rayssa Martinez
+AUTORA: Érica Raissa da Silva
 OBJETIVO:
     Simular os movimentos de quatro peças do xadrez utilizando:
       - Recursividade (Torre, Bispo e Rainha)
