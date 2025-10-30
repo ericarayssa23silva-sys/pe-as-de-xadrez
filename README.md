@@ -1,7 +1,7 @@
 #Peças de xadres
 
 ------------------
-#projetp acadêmico- Movimentação das peças de xadres
+#projeto acadêmico- Movimentação das peças de xadres
 ------------------
 
 ## 🧠 Objetivo do Projeto
