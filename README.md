@@ -17,9 +17,13 @@ Simular a movimentação das peças de xadrez utilizando diferentes estruturas d
 
 O programa está dividido em três partes principais:
 
-1. **Torre** – utiliza o laço `for` para repetir 5 movimentos para a direita.
-2. **Bispo** – utiliza o laço `while` para repetir 5 movimentos na diagonal “Cima, Direita”.
-3. **Rainha** – utiliza o laço `do-while` para repetir 8 movimentos para a esquerda.
+
+1. **Torre** – usa `for` para mover 5 casas para a direita.  
+2. **Bispo** – usa `while` para mover 5 casas na diagonal superior direita.  
+3. **Rainha** – usa `do-while` para mover 8 casas para a esquerda.  
+4. **Cavalo** – usa **dois loops aninhados** (`for` + `while`) para mover duas casas para baixo e uma para a esquerda, simulando o movimento em “L”.
+
+
 Cada parte imprime a direção e o número da casa percorrida.
 
 
